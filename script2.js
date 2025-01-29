@@ -8,7 +8,7 @@ let k=0
 let afficherFr = document.querySelector(".zoneMot")
 let afficherJp = document.querySelector(".zoneRep")
 
-// quand on appuis sur suivant, on affiche 2ème mot français 
+// quand on appuis sur Fr, on affiche 2ème mot français 
 let BtnFr = document.getElementById("btnFr")
 BtnFr.addEventListener("click", () => {
 
@@ -22,7 +22,7 @@ BtnFr.addEventListener("click", () => {
 })  
 
 
-// quand on appuis sur vérifier, on affiche la rep en japonais
+// quand on appuis sur JP, on affiche la rep en japonais
 let BtnJp = document.getElementById("btnJp")
 BtnJp.addEventListener("click", () => {
 
